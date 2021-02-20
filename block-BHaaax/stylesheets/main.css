@@ -1,0 +1,108 @@
+/* My Reset */
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global */
+
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Modular Class */
+
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text {
+  text-indent: 1rem;
+}
+
+/* Header */
+
+.logo,
+.navbar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 46%;
+  margin: 1.5%;
+}
+
+.logo img {
+  width: 10rem;
+  height: 5rem;
+}
+
+.navbar-link {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: aliceblue;
+}
+
+.navbar {
+  text-align: right;
+}
+
+.header {
+  background-color: #555b5f;
+  padding-bottom: 0.5rem 0;
+  font-size: 0;
+}
+
+/* Section */
+
+.para,
+.img-div {
+  width: 46%;
+  display: inline-block;
+  margin: 1.5%;
+  vertical-align: top;
+}
+
+.hero-section {
+  padding: 2rem 0;
+}
+
+.heading {
+  line-height: 2.4rem;
+  padding-bottom: 1.5rem;
+}
+
+.text {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #555b5f;
+  text-align: center;
+  padding: 2rem 0;
+  color: aliceblue;
+  font-size: 0.7rem;
+}
