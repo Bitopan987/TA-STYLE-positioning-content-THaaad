@@ -1,8 +1,83 @@
-<!-- ### Exercise 2
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the brand name to the left and all the navigation to the right.
-
-3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
-4. Using float is necessary. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Page-2</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="./media/logo.svg" alt="AltCampus" />
+        </div>
+        <!-----
+        ---->
+        <nav class="navbar">
+          <a href="#" class="navbar-link">ABOUT</a>
+          <a href="#" class="navbar-link">PRIVACY</a>
+          <a href="#" class="navbar-link">HELP</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="blog">
+        <div class="container clearfix">
+          <article class="col">
+            <img
+              src="./media/alan-flack-VtfiPvSGh5s-unsplash.jpg"
+              alt="Dan-Gold"
+            />
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              voluptates voluptatibus alias magni dignissimos numquam delectus.
+              Impedit tempore reiciendis, ex esse labore dolorum vel id ad est
+              quae explicabo optio possimus error voluptatum. Officiis totam
+              quasi sint commodi incidunt. Totam, ullam, minus recusandae odit
+              porro quo sunt nam officia nemo nulla adipisci deserunt quae
+              incidunt similique rerum doloremque et sequi.
+            </p>
+          </article>
+          <article class="col">
+            <img
+              src="./media/serge-kutuzov-1K9-TbJWs2U-unsplash.jpg"
+              alt="Dan-Gold"
+            />
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              voluptates voluptatibus alias magni dignissimos numquam delectus.
+              Impedit tempore reiciendis, ex esse labore dolorum vel id ad est
+              quae explicabo optio possimus error voluptatum. Officiis totam
+              quasi sint commodi incidunt. Totam, ullam, minus recusandae odit
+              porro quo sunt nam officia nemo nulla adipisci deserunt quae
+              incidunt similique rerum doloremque et sequi.
+            </p>
+          </article>
+          <article class="col">
+            <img
+              src="./media/tabea-damm-O7WzqmeYoqc-unsplash.jpg"
+              alt="Dan-Gold"
+            />
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              voluptates voluptatibus alias magni dignissimos numquam delectus.
+              Impedit tempore reiciendis, ex esse labore dolorum vel id ad est
+              quae explicabo optio possimus error voluptatum. Officiis totam
+              quasi sint commodi incidunt. Totam, ullam, minus recusandae odit
+              porro quo sunt nam officia nemo nulla adipisci deserunt quae
+              incidunt similique rerum doloremque et sequi.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <small>&copy;2021 AltCampus</small>
+      </div>
+    </footer>
+  </body>
+</html>
