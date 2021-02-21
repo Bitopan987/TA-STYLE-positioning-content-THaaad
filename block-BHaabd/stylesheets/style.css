@@ -1,0 +1,218 @@
+/* Eric Mayers Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My Reset */
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global */
+
+body {
+  padding: 2rem 0;
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: rgb(189, 247, 247);
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+/* Modular class */
+
+.container {
+  margin: 0 auto;
+  max-width: 55rem;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* Section */
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.col {
+  float: left;
+  margin: 1.5%;
+  vertical-align: top;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.text {
+  padding: 0.5rem 0;
+}
+.quote {
+  padding-left: 2rem;
+}
+.left,
+.right {
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+
+.right {
+  font-family: serif;
+}
+
+.text,
+.quote {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  text-align: justify;
+}
