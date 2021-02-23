@@ -1,0 +1,296 @@
+/* Eric Mayers Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My Reset */
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global */
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Modular Classes */
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 0.7rem;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* Header */
+
+.header {
+  background-color: #5a5a66;
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  line-height: 55px;
+}
+
+.logo,
+.navbar {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.7rem 0;
+}
+
+.logo img {
+  width: 9rem;
+  height: 3rem;
+  vertical-align: middle;
+}
+
+.navbar {
+  width: calc(100% - 9rem);
+  text-align: right;
+  float: right;
+}
+
+.logo {
+  float: left;
+}
+
+.navbar a {
+  margin-left: 1rem;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+/* Section-Article */
+
+.article-1 {
+  font-size: 0;
+}
+
+.article-section {
+  padding: 6rem 0 2rem 0;
+}
+
+.col-1,
+.col-2 {
+  display: inline-block;
+  width: 47%;
+  margin: 1.5%;
+  vertical-align: top;
+}
+
+.article-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.article-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Gallery Section */
+
+.gallery-section .article-title {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 2rem;
+}
+
+.gallery-section {
+  background-color: #6de7e7;
+}
+
+.col-1-1 {
+  width: 30.33%;
+  margin: 1.5%;
+  float: left;
+}
+
+/* Footer */
+
+.footer {
+  padding: 1.8rem 0;
+  background-color: #5a5a66;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer a {
+  color: aliceblue;
+  margin: 0.3rem;
+}
+
+/* Top-btn */
+
+.top-btn {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(yellow, green);
+  position: fixed;
+  right: 0.7rem;
+  bottom: 0.7rem;
+  text-align: center;
+  line-height: 48px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fff;
+}
